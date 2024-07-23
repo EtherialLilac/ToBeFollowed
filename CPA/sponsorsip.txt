@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPA - TRION</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/CPALOGO (2).png" type="image/x-icon">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/CPALOGO (2).png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">&nbsp;&nbsp;About us&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">&nbsp;&nbsp;Donate&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsor.html">&nbsp;&nbsp;Sponsor an Animal&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adopt.php">&nbsp;&nbsp;Adopt&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="request.html">Request for intake and foster&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: blue;" class="nav-link" href="admin/petadoptionLogin.php">&nbsp;&nbsp;&nbsp;&nbsp;Admin Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+    <div class="content">
+<!--card-->
+        <div class="container">
+            <div class="curved-box">
+              <h3>PICK A FRIEND</h3>
+              <p style = "text-align: left;">Pets that are posted here are pets that are healthy nor unhealthy and their pet’s owners or the organization need your help. 
+                Your sponsorship will go towards your sponsored pet’s care.<BR><BR><BR>
+
+                How to sponsor an animal??<BR>
+                • Go to the adopt navigation button above or below the system.<BR>
+                • Pick a fur friend you want to sponsor.<BR>
+                • Chat with admin before proceeding to answering the sponsorship form
+                • If approved by admin - send payment VIA gcash QR code or number<br>
+                • fill out sponsorship form<BR><BR>
+                
+                We rely on the kindness of friends like you to help us continue our mission of 
+                providing, medical care assistance, treatment and love to these animals.<br><br>
+                Your sponsorship will be acknowledged and will be posted on our social media platform.</p>
+            </div>
+          </div>
+          <br><br><br>
+
+          <style>
+            /* Styles for the button */
+            .beautiful-button {
+              display: inline-block;
+              padding: 10px 20px;
+              font-size: 16px;
+              text-align: center;
+              text-decoration: none;
+              cursor: pointer;
+              border-radius: 5px;
+              color: #ffffff;
+              background-color: #3498db;
+              border: 2px solid #2980b9;
+              transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+            }
+        
+            /* Hover effect */
+            .beautiful-button:hover {
+              background-color: #2980b9;
+              border-color: #3498db;
+              color: #ffffff;
+            }
+          </style>
+        </head>
+        <body>
+        
+          <!-- Button HTML -->
+          <a href="adopt.php" class="beautiful-button">Adopt</a><br><br>
+          <a href="sponsorform.html" class="beautiful-button">Sponsorship form</a>
+        
+<!--PET LIST
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="photo-card">
+              <img src="img/cat1.jpg" class="card-img-top" alt="Sample Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to describe the photo. This could include details about the image or its context.</p>
+                <br><br><br><br><br>
+                <a href="sponsorform.html" class="btn btn-primary">Sponsor</a>
+              </div>
+            </div>
+          </div><div class="col-md-4">
+            <div class="photo-card">
+              <img src="img/dog1.jpg" class="card-img-top" alt="Sample Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to describe the photo. This could include details about the image or its context.</p>
+                <br><br><br><br><br><br>
+                <a href="sponsorform.html" class="btn btn-primary">Sponsor</a>
+              </div>
+            </div>
+          </div><div class="col-md-4">
+            <div class="photo-card">
+              <img src="img/cat2.jpg" class="card-img-top" alt="Sample Image">
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">Some quick example text to describe the photo. This could include details about the image or its context.</p>
+                <a href="sponsorform.html" class="btn btn-primary">Sponsor</a>
+              </div>
+            </div>
+          </div>
+      <!-- Replicate this structure for additional cards -->
+      <!-- <div class="col-md-4">
+            Additional photo card content here
+          </div> 
+    </div>
+  </div-->
+
+  <br><br><br><br>
+
+
+
+               
+
+ </div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+<div class="footer-icons">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+<p>Connect with us on social media for updates and more!</p>
+<p>&copy; 2023 Companion Pet Adoption - CATS OF LEGASPI VILLAGE</p>
+
+</div>
+<!--Talkto-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/658ff5900ff6374032ba847a/1hit5ef8o';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Bootstrap JS (optional, for certain components that require it) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
+
+sponsor.html
+---------------------------------------------------------------------------
+
+sponsorform.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPA - TRION</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/CPALOGO (2).png" type="image/x-icon">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/CPALOGO (2).png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">&nbsp;&nbsp;About us&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">&nbsp;&nbsp;Donate&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sponsor.html">&nbsp;&nbsp;Sponsor an Animal&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adopt.php">&nbsp;&nbsp;Adopt&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="request.html">Request for intake and foster&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: blue;" class="nav-link" href="admin/petadoptionLogin.php">&nbsp;&nbsp;&nbsp;&nbsp;Admin Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+    <div class="content">
+
+
+
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+                <div class="form-box">
+                  <h2 style="color: darkorchid;font-weight: bolder;">User sponsorship form</h2><br><br>
+                  <form action="#" method="POST">
+                    <div class="form-group">
+                      <label for="name">Firstname:</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Lastname:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                      </div>                    
+                      <div class="form-group">
+                        <label for="name">Complete address:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                      </div>                    
+                      <div class="form-group">
+                        <label for="name">Cellphone number:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                      </div>                    
+                      <div class="form-group">
+                        <label for="name">E_Mail:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                      </div>                    
+                      <div class="form-group">
+                        <label for="name">Amount to be sponsored:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                      </div>   <br><br>
+                      <div class="form-group">
+                        <label for="name">PET NAME OR ID</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                      </div>  
+
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-6 offset-md-3">
+                            <a href="walletdonate.html"><button type="button" class="btn btn-secondary">E-WALLET</button></a>
+                          </div>
+                        </div>
+                      </div>
+                      <br><br>
+                    <!-- Add more form fields as needed -->
+
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-md-6 offset-md-3">
+                            <form id="myForm" action="#" method="POST">
+                              <button type="button" class="btn btn-primary" onclick="confirmSubmission()">Submit</button>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <!-- Bootstrap JS (optional, for certain components that require it) -->
+                      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                      <script>
+                        function confirmSubmission() {
+                          var confirmation = confirm("Are you sure you want to submit?");
+                          if (confirmation) {
+                            document.getElementById("myForm").submit();
+                          }
+                        }
+                      </script>
+
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div><br><br><br><br><br><br>
+
+
+        
+
+ </div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+<div class="footer-icons">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+<p>Connect with us on social media for updates and more!</p>
+<p>&copy; 2023 Companion Pet Adoption - CATS OF LEGASPI VILLAGE</p>
+
+</div>
+<!--Talkto-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/658ff5900ff6374032ba847a/1hit5ef8o';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Bootstrap JS (optional, for certain components that require it) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>

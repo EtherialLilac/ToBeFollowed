@@ -1,0 +1,201 @@
+ body {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.146),rgba(4, 9, 30, 0.146)),url(img/back.png);
+    background-size: cover;
+    position: relative;
+    min-height: 50vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.content {
+    padding: 0;
+  }
+  .navbar {
+    background-color: #0de2ad; /* Navbar background color */
+  }
+  .navbar-brand {
+    color: #08d284; /* Navbar brand text color */
+    font-weight: bold;
+  }
+  .navbar-brand img {
+    max-width: 100px; /* Adjust the logo size as needed */
+    margin-right: 6px;
+  }
+  .navbar-nav .nav-link {
+    color: #000000; /* Navbar link text color */
+    transition: transform 0.3s ease; /* Transition effect */
+    font-weight: bold;
+  }
+  .navbar-nav .nav-link:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+  }
+  .footer {
+    background-color: #08d284; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .content {
+    padding: 50px;
+    text-align: center;
+  }
+  .curved-box {
+    background-color: #08d284; /* Box background color */
+    border: 2px solid #333; /* Box border color */
+    padding: 20px;
+    border-radius: 20px; /* Curved edges */
+    text-align: center;
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  .box {
+    background-color: #f0f0f0; /* Box background color */
+    border: 2px solid #333; /* Box border color */
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    opacity: 0; /* Initially hide the box */
+    transition: opacity 0.5s ease-in-out; /* Transition for opacity */
+  }
+  .box-donate{
+    background-color: #f0f0f0; /* Box background color */
+    border: 2px solid #333; /* Box border color */
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px; /* Curved edges */
+    margin-top: 30px;
+    opacity: 0; /* Initially hide the box */
+    transition: opacity 0.5s ease-in-out; /* Transition for opacity */
+  }
+  /* Add animation when box is visible */
+  .box.show {
+    opacity: 1;
+  }
+  .box-donate.show {
+    opacity: 1;
+  }
+  .divider {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    position: relative;
+  }
+  .divider::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Divider height */
+    background: linear-gradient(to right, rgb(88, 163, 34), rgb(220, 135, 224)); /* Gradient line color */
+  }
+  .divider-text {
+    background: linear-gradient(to right, #f06, #9f6); /* Same as divider gradient color */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .divider-text-donate {
+    background: linear-gradient(to right, #f06, #9f6); /* Same as divider gradient color */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .rounded-box {
+    border: 2px solid #333; /* Box border color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow for text */
+  }
+  .no-corners {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    background-color: #fff; /* Background color same as body */
+    z-index: -1;
+  }
+
+  /*------button-----*/
+  .animated-button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #d468c7;
+    border: 2px solid #ebc83b;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  .animated-button:hover {
+    background-color: transparent;
+    color: #000000;
+  }
+  .animated-button span {
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  .animated-button:hover span {
+    transform: translateY(-100%);
+  }
+
+  /*form donate*/
+  .form-box {
+    border: 2px solid #eb71e5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .rounded-container {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  .rounded-container img {
+    width: 100%;
+    height: 50%;
+    display: block;
+  }
+  .rounded-content {
+    padding: 20px;
+    background-color: #e67ac062;
+  }
+    /* Add custom styles as needed */
+    .photo-card {
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 2px solid #000000;
+    }
+    .photo-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .photo-card .card-body {
+      padding: 15px;
+    }
+
+.card-body{
+  border: 2px solid #000000;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPA - TRION</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/CPALOGO (2).png" type="image/x-icon">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/CPALOGO (2).png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">&nbsp;&nbsp;About us&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">&nbsp;&nbsp;Donate&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adopt.php">&nbsp;&nbsp;Adopt&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="request.html">Request for intake and foster&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: blue;" class="nav-link" href="admin/petadoptionLogin.php">&nbsp;&nbsp;&nbsp;&nbsp;Admin Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+    <div class="content">
+
+          <!-- HCO -->
+  <div class="container">
+    <div class="curved-box">
+      <h3>WHY DONATE TO CPA?</h3>
+      <p>Your donation to the Companion Pet Adoption Management will immediately impact the lives of the to be abandon animals, abused, or 
+        neglected animals by providing needed medical care, food, shelter, and safety.
+        You can donate in confidence that every penny is utilized responsibly. As the newest establish organization CPA strive 
+        its live-release goals. Please, help us save more homeless pets by making a donation today!</p>
+    </div>
+  </div>
+</div>
+  <!--button-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a href="donateform.html" class="animated-button">
+          <span>Click to donate</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!--divider-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="divider">
+          <span class="divider-text-donate">These donations go a long way in providing the needs of our partnership shelter animals. 
+            Below is a list of items that they need on a daily basis:</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!---WISHLIST-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box-donate">
+          <h3>Pets Wish List</h3><BR>
+          <p>• Dog and Cat food (kibble and canned)<br>
+            • Crates, carriers or cages<br>
+            • Pet diapers and wee wee pads<br>
+            • Scratching posts for the cats<br>
+            • Chew toys for the dogs<br>
+            • Vaccines, medicine and vitamins<br>
+            • Dog and cat treats<br>
+            • Leashes, harnesses and collars</p><br>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="box-donate">
+          <h3>Shelter Wish List</h3><BR>
+          <p>• Detergent powder and bleach<br>
+            • Dishwashing paste or liquid<br>
+            • Bath towels<br>
+            • Garbage bags (XXL)<br>
+            • Foot rugs or door mats<br>
+            • Clinic supplies (alcohol, cotton, etc.)<br>
+            • Old newspapers<br>
+            • Toilet paper<br>
+            • Mops and brooms</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- Bootstrap JS (optional, for certain components that require it) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Add animation when boxes are in the viewport
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var boxes = document.querySelectorAll('.box-donate');
+
+      function fadeInBoxes() {
+        boxes.forEach(function(box) {
+          if (isElementInViewport(box)) {
+            box.classList.add('show');
+          }
+        });
+      }
+
+      function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      fadeInBoxes();
+
+      window.addEventListener('scroll', fadeInBoxes);
+      window.addEventListener('resize', fadeInBoxes);
+    });
+  </script><br><br><br><br><br><br>
+
+ <!---WISHLIST end-->
+
+
+
+
+ </div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+<div class="footer-icons">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+</div>
+<p>Connect with us on social media for updates and more!</p>
+<p>&copy; 2023 Companion Pet Adoption - CATS OF LEGASPI VILLAGE</p>
+
+</div>
+<!--Talkto-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/658ff5900ff6374032ba847a/1hit5ef8o';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Bootstrap JS (optional, for certain components that require it) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>

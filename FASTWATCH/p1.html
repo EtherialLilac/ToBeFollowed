@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastWatch</title>
+    
+    <!-- All CSS -->
+    <link rel="icon" href="Img/logo1.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+</head>
+		<link rel="stylesheet" href="css/animate/animate.css">
+ 
+	
+              <script src="css/wow/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+			  
+<body>
+
+<!-- Messenger Chat Plugin Code 
+    <div id="fb-root"></div>
+
+     Your Chat Plugin code 
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "115593091474841");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    Your SDK code 
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v16.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>	
+	-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark py-6 fixed-top">
+        <div class="container">
+          <!--<a class="navbar-brand" href="index.html"><span class="text-warning">FAST</span>WATCH</a>
+          <img src = "img/logo.jpg" alt = "site icon" >-->
+          <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <img src = "img/logo.png" alt = "icon" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Pricing</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="packages.html">Resellers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resellers.html">Contact us</a>
+              </li> 
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+         
+      
+	  
+	  <div class="container">
+	  <div class="row">
+	  
+	  <div class="col-12">
+	  <br><br><br>	
+      <p style="font-size: 30px; text-align: center;"><br><b>MODE OF PAYMENT</b></p><br><br><br>
+
+        
+      <br>  <br>  <br>  <br>  <br><br>
+
+<!---->
+<center>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: block; font-size: 50px;">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="P2NWKRSNDKLGU">
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="100" height="100">
+  </form>
+  </center>
+  <br>  <br>  <br>  <br>  <br>  <br> 
+
+
+<!--form action="https://www.paypal.com/cgi-bin/webscr" 
+style="display: block; font-size: 50px;"
+method="post" target="_top">
+
+  <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div style="margin-bottom: 1.25rem;">
+          <p>1 - connection</p>
+          <select id="item-options"><option value="Premium 1 month" price="19.99">Premium 1 month - 19.99 USD</option></select>
+          <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select>
+        </div>
+      <div id="paypal-button-container"></div>
+      </div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+    <script>
+      function initPayPalButton() {
+        var shipping = 0;
+        var itemOptions = document.querySelector("#smart-button-container #item-options");
+    var quantity = parseInt(5);
+    var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+    if (!isNaN(quantity)) {
+      quantitySelect.style.visibility = "visible";
+    }
+    var orderDescription = '1 connection';
+    if(orderDescription === '') {
+      orderDescription = 'Item';
+    }
+    paypal.Buttons({
+      style: {
+        shape: 'pill',
+        color: 'gold',
+        layout: 'vertical',
+        label: 'checkout',
+        
+      },
+      createOrder: function(data, actions) {
+        var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+        var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+        var tax = (0 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
+        if(quantitySelect.options.length > 0) {
+          quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+        } else {
+          quantity = 1;
+        }
+
+        tax *= quantity;
+        tax = Math.round(tax * 100) / 100;
+        var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+        priceTotal = Math.round(priceTotal * 100) / 100;
+        var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+
+        return actions.order.create({
+          purchase_units: [{
+            description: orderDescription,
+            amount: {
+              currency_code: 'USD',
+              value: priceTotal,
+              breakdown: {
+                item_total: {
+                  currency_code: 'USD',
+                  value: itemTotalValue,
+                },
+                shipping: {
+                  currency_code: 'USD',
+                  value: shipping,
+                },
+                tax_total: {
+                  currency_code: 'USD',
+                  value: tax,
+                }
+              }
+            },
+            items: [{
+              name: selectedItemDescription,
+              unit_amount: {
+                currency_code: 'USD',
+                value: selectedItemPrice,
+              },
+              quantity: quantity
+            }]
+          }]
+        });
+      },
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(orderData) {
+          
+          // Full available details
+          console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+          // Show a success message within this page, e.g.
+          const element = document.getElementById('paypal-button-container');
+          element.innerHTML = '';
+          element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+          // Or go to another URL:  actions.redirect('thank_you.html');
+
+        });
+      },
+      onError: function(err) {
+        console.log(err);
+      },
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+    </script>
+
+  </form-->
+
+
+
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="PMGGPGXTHNFLU">
+		  
+          
+          <!--center-->
+
+            <!--form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: block; font-size: 50px;"
+            method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="2846Q5LHE7H6L">
+              <table>
+              <tr><td><input type="hidden" name="on0" value="1 connection">1-connection</td></tr><tr><td><select name="os0">
+                <option value="Premium 1 month">Premium 1 month $19.99 USD</option>
+              </select> </td></tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD">
+              <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form-->
+
+              <!--div id="smart-button-container">
+                <div style="text-align: center;">
+                  <div id="paypal-button-container"></div>
+                </div>
+              </div>
+            <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+            <script>
+              function initPayPalButton() {
+                paypal.Buttons({
+                  style: {
+                    shape: 'rect',
+                    color: 'gold',
+                    layout: 'vertical',
+                    label: 'checkout',
+                    
+                  },
+          
+                  createOrder: function(data, actions) {
+                    return actions.order.create({
+                      purchase_units: [{"description":"Premium 1 month","amount":{"currency_code":"USD","value":19.99}}]
+                    });
+                  },
+          
+                  onApprove: function(data, actions) {
+                    return actions.order.capture().then(function(orderData) {
+                      
+                      // Full available details
+                      console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+          
+                      // Show a success message within this page, e.g.
+                      const element = document.getElementById('paypal-button-container');
+                      element.innerHTML = '';
+                      element.innerHTML = '<h3>Thank you for your payment!</h3>';
+          
+                      // Or go to another URL:  actions.redirect('thank_you.html');
+                      
+                    });
+                  },
+          
+                  onError: function(err) {
+                    console.log(err);
+                  }
+                }).render('#paypal-button-container');
+              }
+              initPayPalButton();
+            </script>
+              
+        
+        <--/center>
+        <br><br><br>        <br><br><br>        <br><br><br>
+		  
+		  <input type="hidden" name="on0" value="1 connection">1 connection</input>
+		  
+		  <br>
+		  
+		  
+		  <select name="os0">
+            <option value="Premium 1 month">Premium 1 month $19.99 USD</option>
+          </select> 
+		  
+		   <br>
+		  
+		  
+          <input type="hidden" name="currency_code" value="USD"/>
+		  
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		  
+		    <br>
+		  <center>
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="445px" height="100px"-->
+		  </div>
+		  
+		  
+		  </div>
+		  </div>
+		  
+      <!-- footer starts -->
+
+      <footer class="footer-distributed">
+        <div class="footer-left">
+          <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+            <img src = "img/logo2.png" alt = "icons" ></a>
+            <!--h3>Fast<span>Watch</span></h3-->
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                |
+                <a href="about.html">About</a>
+                |
+                <a href="services.html">Pricing</a>
+                |
+                <a href="packages.html">Resellers</a>
+                |
+                <a href="resellers.html">Contacts</a>
+                |
+                
+               
+            </p>
+
+            <!--<p class="footer-company-name">Copyright © 2023 <strong>SampleWebsite</strong> All rights reserved</p>-->
+        </div>
+
+        <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><!--span>city of</span-->
+                WorldWide</p>
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+              <p><a href="what.html">WHATSAPP</a></p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:fastwatch18@gmail.com">FastWatchIPTV</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>About the company</span>
+              <strong>FASTWATCH Iptv </strong> is a service provider that gives you an awesome experience watching all movies, 
+              series, tv shows and sports that you love anytime, anywhere! Get unlimited access to over tens of thousands of channels 
+              and Videos on Demands that we provide to all of our valued customers and users all over the world. We don’t settle our 
+              customers for less, we provide a quality IPTV Service wherever you are in the world! 
+          </p>
+          <div class="footer-icons">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/fast_watch"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+      </div>
+  </footer>
+
+    <footer class="bg-dark p-2 text-center">
+        <div class="container">
+            <p class="text-white">Copyright © 2023 <strong>FastWatchIPTV</strong> All rights reserved</p></p>
+        </div>
+    </footer>
+      <!-- footer ends -->
+
+   <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/640dcd1c31ebfa0fe7f216fc/1grauif3q';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+    
+    <!-- All Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+
+</html>
+
+
+
+
+<!--for getting the form download the code from download button-->

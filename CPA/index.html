@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CPA - CATSOFLEGASPI</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   
+  <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/CPALOGO (2).png" type="image/x-icon">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/CPALOGO (2).png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">&nbsp;&nbsp;About us&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">&nbsp;&nbsp;Donate&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="adopt.php">&nbsp;&nbsp;Adopt&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="request.html">Request for intake and foster&nbsp;&nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: blue;" class="nav-link" href="admin/petadoptionLogin.php">&nbsp;&nbsp;&nbsp;&nbsp;Admin Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+    <div class="content">
+  <!-- HCO -->
+  <div class="container">
+        <div class="curved-box">
+          <h3>HOW CPA OPERATES</h3>
+          <p>The Companion Pet Adoption is supported through donations, grants, requests from individuals, and special events to raise needed funds.
+            Directed by a volunteer board and operated by a professional management. Through grassroots advocacy, and education, 
+            the Companion Pet Adoption strives to be the leading voice for unwanted pets in crisis.</p>
+        </div>
+      </div>
+
+<!--box-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box">
+          <h3>MISSION</h3><BR>
+          <p>The Companion Pet Adoption System is a website platform that works to find a new home for your furry friend. 
+            Our mission is to enhance the quality of life for these animals and give them chance to find a new companion by 
+            posting it online and endorsing it to our organizations partners and people.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="box">
+          <h3>VISSION</h3><BR>
+          <p>Our Vision is a world where every companion animal has a safe and loving forever home.</p>
+          <BR><BR><BR>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional, for certain components that require it) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Add animation when boxes are in the viewport
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var boxes = document.querySelectorAll('.box');
+
+      function fadeInBoxes() {
+        boxes.forEach(function(box) {
+          if (isElementInViewport(box)) {
+            box.classList.add('show');
+          }
+        });
+      }
+
+      function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      fadeInBoxes();
+
+      window.addEventListener('scroll', fadeInBoxes);
+      window.addEventListener('resize', fadeInBoxes);
+    });
+  </script>
+
+<!--divider-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="divider">
+          <span class="divider-text">FAQ'S</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--rounded box-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="rounded-box">
+          <div class="no-corners"></div>
+          <h3>Q: I am interested in adopting an animal from your site. How do I do this?</h3><br>
+          <p>We have very strict protocols in place for adopting in our website. We need to be 100% certain, 
+            without a shadow of a doubt, that they will be placed in loving homes.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="rounded-box">
+          <div class="no-corners"></div>
+          <h3>Q: How can  we donate goodees for the pets? &nbsp;</h3><BR><BR><BR>
+          <p>You can go or deliver at Mckinley Parkway <br>Bonifacio Global City, Taguig, Philippines __________________________________</p><BR><BR>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="rounded-box">
+          <div class="no-corners"></div>
+          <h3>Q: Do you accept volunteers?</h3><br><br><br>
+          <p>Trion accpets volunteers just chat us through here or at our facebook page</p><br><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+ </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <p>Connect with us on social media for updates and more!</p>
+    <p>&copy; 2023 Companion Pet Adoption - CATS OF LEGASPI VILLAGE</p>
+
+  </div>
+<!--Talkto-->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/658ff5900ff6374032ba847a/1hit5ef8o';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+  <!-- Bootstrap JS (optional, for certain components that require it) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Font Awesome JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
